@@ -24,8 +24,8 @@ public class GiocoSottrazioni extends AbstractGioco {
 			pausa();
 			int a = random.nextInt(50);
 			int b = random.nextInt(50) + a;
-			risultato = b + a;
-			stampa("Quanto fa: " + b + " + " + a + "?");
+			risultato = b - a;
+			stampa("Quanto fa: " + b + " - " + a + "?");
 			risposta = scanner.nextLine();
 
 			if (vuoiUscire(risposta)) {
