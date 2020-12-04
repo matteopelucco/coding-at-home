@@ -11,6 +11,7 @@ import org.apache.commons.lang3.StringUtils;
  */
 public class Tabelline 
 {
+	private static final String NOME = "Vercingetorige";
 	static Random random = new Random();
 	
     public static void main( String[] args ) throws InterruptedException
@@ -21,7 +22,7 @@ public class Tabelline
     	stampa("Ciao!");
     	pausa();
     	    	
-    	stampa("Io sono JOHN, e sono un esperto di tabelline.");
+    	stampa("Io sono " + NOME + ", e sono un esperto di tabelline.");
     	pausaLunga();
     	stampa("Tu invece come ti chiami?");
     	String nome = scanner.nextLine();
@@ -68,9 +69,7 @@ public class Tabelline
     			risultato = a * b;
     			stampa("Quanto fa: " + a + " x " + b + "?");
     		}
-    		
-    		domande++;
-    		
+
 			risposta = scanner.nextLine();
 			if (StringUtils.equalsIgnoreCase(risposta, "stop")) {
 				break;
@@ -83,12 +82,14 @@ public class Tabelline
 				risposteErrate++;
 			}
 			
+			domande++;
+			
     	}
     	
     	stampa("Ok " + nome + ", grazie per aver giocato con me!");
-    	stampa("In questo gioco, ti ho fatto " + domande + " domande");
+    	stampa("In questo gioco, ti ho fatto " + (domande) + " domand" + (domande == 1 ? "a":"e") + ".");
     	pausa();
-    	stampa("Hai risposto correttamente " + risposteCorrette + " volt" + (risposteCorrette > 0 ? "a":"e") + " e hai fatto " + risposteErrate + " error" + (risposteErrate > 0 ? "i":"e"));
+    	stampa("Hai risposto correttamente " + risposteCorrette + " volt" + (risposteCorrette == 1 ? "a":"e") + " e hai fatto " + risposteErrate + " error" + (risposteErrate == 1 ? "e":"i") + ".");
     	pausa();
     	stampa("Alla prossima!");
         
