@@ -52,25 +52,26 @@ public class GiocoIndovinaParola extends AbstractGioco {
         indovinelli.put("Quando arriva ci fa tremare, anche se non è spaventoso. Chi è?", "freddo");
         indovinelli.put("Chi sposa tante donne ma non ha nemmeno una moglie?", "prete");
 
-
-        // Aggiunta degli indovinelli e delle risposte alla mappa
-        indovinelli.put("Chi sono i due fratelli che stanno sempre in mezzo al sole e alla luna?", "Giuca e Luna");
-        indovinelli.put("Ha denti ma non mangia, ha un letto ma non dorme. Chi è?", "Una pettine");
-        indovinelli.put("Inizia la notte e vola senza rumore. A cosa mi riferisco?", "Le stelle");
-        indovinelli.put("Ha molte chiavi ma apre una sola porta. Cosa è?", "Un pianoforte");
-        indovinelli.put("Voli senza ali, corri senza gambe. Cosa è?", "Un temporale");
-        indovinelli.put("Si getta ma non si bagna mai. Cosa è?", "Un dado");
-        indovinelli.put("Ho il cuore in testa, chi sono?", "L'asino");
-        indovinelli.put("Attraversa il fiume senza bagnarsi. Cosa è?", "Il ponte");
-        indovinelli.put("Sono alto quanto un albero ma non ho foglie, chi sono?", "Il chiodo");
-        indovinelli.put("È nero, bianco e rosso tutto intero. Chi è?", "Un pinguino con la febbre");
+        indovinelli.put("Quale cosa è più grande del cielo?", "futuro");
+        indovinelli.put("Cosa si rompe senza mai essersi toccata?", "silenzio");
+        indovinelli.put("Quale parola diventa più corta aggiungendo una lettera?", "Corta");
+        indovinelli.put("Chi può essere tuo amico e nemico allo stesso tempo?", "tempo");
+        indovinelli.put("Qual è l'animale che cammina con la testa?", "gambero");
+        indovinelli.put("Qual è la cosa più leggera del mondo?", "piuma");
+        indovinelli.put("Quale cosa inizia in piedi, continua seduta e finisce sdraiata?", "candela");
+        indovinelli.put("Cosa si può tenere dopo averla data?", "parola");
+        indovinelli.put("Cosa è sempre in anticipo ma non arriva mai?", "futuro");
+        indovinelli.put("Qual è la cosa che diventa più umida più si asciuga?", "asciugamano");
+        indovinelli.put("Cosa si può spezzare anche se non si è mai tenuto?", "segreto");
+        indovinelli.put("Cosa si può vedere con gli occhi chiusi?", "Sogni");
+        indovinelli.put("Qual è la fine di tutto?", "o");
 
         indovinelli.put("Quanto è lungo un anno?", "12 mesi");
-        indovinelli.put("Qual è l'animale più veloce?", "Il ghepardo");
-        indovinelli.put("Qual è la cosa che è più grande quando la comprimi?", "Il buco");
-        indovinelli.put("Cosa si può spezzare anche se non si è mai tenuto?", "Una promessa");
+        indovinelli.put("Qual è l'animale più veloce?", "ghepardo");
+        indovinelli.put("Qual è la cosa che è più grande quando la comprimi?", "buco");
+        indovinelli.put("Cosa si può spezzare anche se non si è mai tenuto?", "promessa");
         indovinelli.put("Cosa ha le ali ma non vola?", "Una sedia");
-        indovinelli.put("Quante lettere ci sono nell'alfabeto?", "11 (nel termine 'nell'alfabeto')");
+        indovinelli.put("Quante lettere ci sono nell'alfabeto?", "11");
         indovinelli.put("Cosa si può vedere con gli occhi chiusi?", "Sogni");
         indovinelli.put("Quale parola è scritta in modo errato in ogni dizionario?", "Errato");
         indovinelli.put("Quanto è pesante un kilogrammo di piume?", "Un kilogrammo");
