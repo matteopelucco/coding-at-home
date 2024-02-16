@@ -66,6 +66,18 @@ public abstract class AbstractGioco implements Gioco {
 
 	}
 
+	protected void controllaLaRisposta(String risposta, String risultato) throws InterruptedException {
+		if (StringUtils.equalsIgnoreCase(risposta, risultato)) {
+			rispostaCorretta();
+			risposteCorrette++;
+		} else {
+			rispostaErrata(risultato);
+			risposteErrate++;
+		}
+
+		domande++;
+	}
+
 	protected boolean vuoiUscire(String risposta) {
 		return StringUtils.equalsIgnoreCase(risposta, COMANDO_DI_USCITA);
 	}

@@ -20,7 +20,7 @@ public class Main {
     	stampa("Ciao!");
     	pausa();
     	    	
-    	stampa("Io sono " + NOME + ", sono stato progettato dal mio Creatore Supremo per aiutarti nella matematica.");
+    	stampa("Io sono " + NOME + ", sono stato progettato dal mio Creatore Supremo per giocare con te.");
     	pausaLunga();
     	stampa("Tu invece come ti chiami?");
     	String nome = scanner.nextLine();

@@ -52,6 +52,17 @@ public final class Utilities {
 		}
 	}
 
+	public static void rispostaErrata(String risultato) throws InterruptedException {
+		int frase = random.nextInt(2);
+		if (frase == 0) {
+			stampa("Accipicchia! La parola giusta è: " + risultato + ". Proviamo ancora.");
+		} else if (frase == 1) {
+			stampa("Non ci siamo! La risposta corretta è: " + risultato + ". Proviamo ancora.");
+		} else {
+			stampa("No no! Avresti pututo scrivere: " + risultato + ". Proviamo ancora.");
+		}
+	}
+
 	public static void rispostaCorretta() throws InterruptedException {
 		int frase = random.nextInt(3);
 		if (frase == 0) {
